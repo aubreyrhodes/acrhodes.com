@@ -29,7 +29,7 @@ end
 # Activate sync extension
 activate :sync do |sync|
   sync.fog_provider = 'AWS'
-  sync.fog_directory = 'acrhodes.com'
+  sync.fog_directory = 'www.acrhodes.com'
   sync.fog_region = 'us-east-1'
   sync.aws_access_key_id = 'AKIAJWFFKHQGRJLMR5GQ'
   sync.aws_secret_access_key = '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'
