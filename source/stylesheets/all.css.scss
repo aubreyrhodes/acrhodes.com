@@ -1,3 +1,40 @@
-/*
- * require_tree .
- */
+@import "compass/css3";
+@import "foundation/settings";
+@import "foundation/functions/all";
+@import "foundation/mixins/clearfix";
+@import "foundation/mixins/css-triangle";
+@import "foundation/mixins/respond-to";
+@import "foundation/mixins/semantic-grid";
+@import "modular-scale";
+@import "foundation/common/globals";
+@import "foundation/components/grid";
+@import "foundation/common/typography";
+@import "foundation/common/forms";
+
+body {
+  background-image: url('/images/navy_blue.png');
+  color: #fff;
+  margin: 0;
+  font-family: "museo-sans",sans-serif;
+}
+
+.hero{
+  color: #666;
+  background: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  span {
+    margin: 5px;
+    font-size: 20px;
+  }
+  .blue {
+    color: #53B2B3;
+  }
+  .red {
+    color: #BC4C20;
+  }
+  .green {
+    color: #94C974;
+  }
+}
