@@ -1,8 +1,24 @@
 .row.hero
-  .twelve.columns
+  .twelve.columns.hide-for-small
     h1.logo ACR3
     h3 Aubrey C. Rhodes III
     p
       span.blue Entrepreneur
       span.red Software Developer
       span.green ATLien
+  .twelve.columns.show-for-small
+    h1.logo.push-left ACR3
+
+.row.content
+  .four.mobile-two.columns
+    h3 Hi
+    p
+      | I'm Aubrey: Developer at #{{ link_to 'Big Nerd Ranch', 'http://www.bignerdranch.com'}} 
+      | (formerly #{{ link_to 'Highgroove Studios','http://www.highgroove.com'}}), 
+      | Founder and Chief Convienience Officer at 
+      | #{{ link_to 'I Need A Toothbrush', 'http://ineedatoothbrush.com' }}, 
+      | all around southern gent.
+  .four.mobile-two.columns.th.center-image
+    img src="/images/aubrey.jpg"
+  .four.mobile-four.columns
+    h3 Blog

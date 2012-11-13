@@ -1,15 +1,4 @@
-@import "compass/css3";
-@import "foundation/settings";
-@import "foundation/functions/all";
-@import "foundation/mixins/clearfix";
-@import "foundation/mixins/css-triangle";
-@import "foundation/mixins/respond-to";
-@import "foundation/mixins/semantic-grid";
-@import "modular-scale";
-@import "foundation/common/globals";
-@import "foundation/components/grid";
-@import "foundation/common/typography";
-@import "foundation/common/forms";
+@import 'foundation';
 
 body {
   background-image: url('/images/navy_blue.png');
@@ -18,10 +7,14 @@ body {
   font-family: "museo-sans",sans-serif;
 }
 
+.logo.push-left{
+  padding-left: 63px;
+}
+
 .hero{
   color: #666;
   background: #fff;
-  width: 100%;
+  // width: 100%;
   text-align: center;
   padding: 15px;
   span {
@@ -36,5 +29,14 @@ body {
   }
   .green {
     color: #94C974;
+  }
+}
+
+.content {
+  background: #fff;
+  margin-top: 20px;
+  color: #888;
+  .center-image {
+    padding: 15px;
   }
 }
