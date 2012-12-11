@@ -1,5 +1,10 @@
 require 'zurb-foundation'
 
+set :markdown_engine, :redcarpet
+set :markdown, :fenced_code_blocks => true,
+               :autolink => true,
+               :smartypants => true
+
 ###
 # Blog settings
 ###
@@ -9,6 +14,7 @@ require 'zurb-foundation'
 activate :blog do |blog|
   blog.prefix = "blog"
 
+  blog.layout = "blog_layout"
   blog.tag_template = "tag.html"
   blog.calendar_template = "calendar.html"
 end

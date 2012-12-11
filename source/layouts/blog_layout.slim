@@ -1,0 +1,15 @@
+- wrap_layout :layout do
+  .row.hero
+    .twelve.columns.hide-for-small
+      h1.logo ACR3
+      h3 Aubrey C. Rhodes III
+      p
+        span.blue Entrepreneur
+        span.red Software Developer
+        span.green ATLien
+    .twelve.columns.show-for-small
+      h1.logo.push-left ACR3
+
+  .row.content.blog
+    h1= current_page.data.title
+    == yield
