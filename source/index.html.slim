@@ -22,3 +22,8 @@
     img src="/images/aubrey.jpg"
   .four.mobile-four.columns
     h3 Blog
+    ul.unstyled
+      - blog.articles[0..2].each do |article|
+        li
+          == link_to article.title, article.url
+          p== article.summary
