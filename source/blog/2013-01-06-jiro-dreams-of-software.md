@@ -6,7 +6,7 @@ Since I've exhausted episodes of _Portlandia_ and _Parks and Recreation_ on Netf
 
 1.  [Take your work seriously](/blog/2013/01/07/jiro-dreams-of-software-serious.html)
 2.  [Aspire to improve](blog/2013/01/08/jiro-dreams-of-software-improve.html)
-3.  Maintain cleanliness
+3.  [Maintain cleanliness](/blog/2013/01/09/jiro-dreams-of-software-cleanliness.html)
 4.  Be a better leader than a collaborator
 5.  Be passionate about your work
 
