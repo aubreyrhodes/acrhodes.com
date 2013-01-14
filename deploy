@@ -1,7 +1,7 @@
 #!/bin/sh
 
 rm -rf tmp/app
-git clone 9715cee22c1ac9ea8d730dcbeefbb10e4f2708f0@github.com:aubreyrhodes/acrhodes.com.git tmp/app
+git clone https://9715cee22c1ac9ea8d730dcbeefbb10e4f2708f0:x-oauth-basic@github.com/aubreyrhodes/acrhodes.com.git tmp/app
 cd tmp/app
 bundle
 middleman build
