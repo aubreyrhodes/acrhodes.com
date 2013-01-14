@@ -1,5 +1,5 @@
 GIT
-  remote: git@github.com:aubreyrhodes/asset_sync.git
+  remote: git://github.com/aubreyrhodes/asset_sync.git
   revision: 4a94027931009bcad3c8f5de62a9c145c00ab10d
   branch: update_cache_control
   specs:
