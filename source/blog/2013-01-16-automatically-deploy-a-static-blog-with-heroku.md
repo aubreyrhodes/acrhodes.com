@@ -7,7 +7,7 @@ As a prerequisite it helps to know how this site is setup. I use the [middleman 
 
 The first step in automating this process was to write a bash script to publish the blog:
 
-<script src="https://gist.github.com/4548116.js"></script><noscript><a href="https://gist.github.com/4548116#file-deploy-sh">https://gist.github.com/4548116#file-deploy-sh</a></noscript>
+<script src="https://gist.github.com/4548116.js"></script><noscript>https://gist.github.com/4548116#file-deploy-sh</noscript>
 
 This script checks out the git project, updates any gems as needed and then builds and deploys the script. It uses a [github authorization token](http://developer.github.com/v3/oauth/#get-a-single-authorization) to access the private repository.
 
