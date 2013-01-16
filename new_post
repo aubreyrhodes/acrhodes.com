@@ -1,0 +1,9 @@
+#!/bin/bash
+
+DATE=`date +"%Y-%m-%d"`
+TITLE=$1
+FILENAME="./source/blog/$DATE-$TITLE.md"
+CAP_TITLE=`ruby -e "puts '$TITLE'.gsub('-',' ').split(' ').map{|s| s.capitalize}.join(' ')"`
+
+echo -e "---\ntitle: $CAP_TITLE\n---\n" >> $FILENAME
+open $FILENAME
