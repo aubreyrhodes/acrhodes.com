@@ -8,5 +8,5 @@ Wanting to impress my managers at my first job, I threw myself into trying to ge
 
 I finally had to ask my manager why I was stuck washing dishes. Was I not doing a good job with the other positions? Had I pissed someone off? It turns out, that no one else could get the mountain of dishes clean in time before the restaurant closed. They couldn't let anyone else wash the dishes because I was doing too good of a job. I was too good of a worker not to be a dishwasher.
 
-As I've moved along in my career, I've kept this lesson in mind. I don't think that you should try to do a bad job at anything you are tasked with. However, you should be selective and only fully throw yourself into the tasks you love. Those will be the ones your stuck doing.
+As I've moved along in my career, I've kept this lesson in mind. I don't think that you should try to do a bad job at anything you are tasked with. However, you should be selective and only fully throw yourself into the tasks you love. Those will be the ones you're stuck doing.
 
