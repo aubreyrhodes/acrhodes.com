@@ -2,7 +2,7 @@
 title: Employees Vs. Resources
 ---
 
-After the merger of Big Nerd Ranch and Highgroove Studios in November of last year, there has been a lot of soul-searching going on in the company as we work to develop and define our company's culture. One recent discussion has revolved around the idea of treating employees as resources. We've had good arguments for both sides internally so far, but I thought I would explain my thoughts.
+After the merger of [Big Nerd Ranch](http://www.bignerdranch.com/index) and Highgroove Studios in November of last year, there has been a lot of soul-searching going on in the company as we work to develop and define our company's culture. One recent discussion has revolved around the idea of treating employees as resources. We've had good arguments for both sides internally so far, but I thought I would explain my thoughts.
 
 First off, I can totally see the merit of wanting employees to be an interchangeable commodity. In an ideal case, one employee could be swapped out for another with no noticeable change. In my time at Highgroove and now at Big Nerd Ranch, documenting your work, getting others involved, and making sure we are handling the 'hit by a bus' situation has always been a big part of our process. I fee like this is in the best interest of our clients and makes all of our work better.
 
