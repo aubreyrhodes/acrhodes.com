@@ -11,3 +11,4 @@ gem "builder", "~> 3.0.0"
 gem 'slim'
 gem 'zurb-foundation'
 gem 'redcarpet'
+gem 'dotenv'

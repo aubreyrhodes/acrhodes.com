@@ -1,4 +1,5 @@
 require 'zurb-foundation'
+require 'dotenv'
 
 set :markdown_engine, :redcarpet
 set :markdown, :fenced_code_blocks => true,
@@ -38,7 +39,7 @@ activate :sync do |sync|
   sync.fog_provider = 'AWS'
   sync.fog_directory = 'www.acrhodes.com'
   sync.fog_region = 'us-east-1'
-  sync.aws_access_key_id = 'AKIAJWFFKHQGRJLMR5GQ'
-  sync.aws_secret_access_key = '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'
+  sync.aws_access_key_id = ENV['AWS_ACCESS_KEY']
+  sync.aws_secret_access_key = ENV['AWS_SECRET']
   sync.existing_remote_files = 'keep'
 end
