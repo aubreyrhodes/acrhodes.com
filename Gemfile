@@ -1,14 +1,13 @@
 source :rubygems
 
-gem "middleman", "~> 3.0.6"
-gem "middleman-blog", "~> 3.1.1"
-gem "asset_sync", git: 'git://github.com/aubreyrhodes/asset_sync.git', branch: 'update_cache_control'
-gem "middleman-sync", "~> 3.0.5"
+gem "middleman", "~> 3.3.4"
+gem "middleman-blog", "~> 3.5.3"
 
 # For feed.xml.builder
 gem "builder", "~> 3.0.0"
 
 gem 'slim'
-gem 'zurb-foundation'
+gem 'zurb-foundation', '~>3.2.2'
 gem 'redcarpet'
 gem 'dotenv'
+gem 'nokogiri'
